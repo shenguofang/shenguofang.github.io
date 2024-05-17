@@ -1,6 +1,154 @@
-<p> hello everyone, This is Guofang, welcome to my website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #0779e4;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>实验物理学家 - Guofang Shen</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#constants">物理常数</a></li>
+                    <li><a href="#research">科研成果</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<ul>
-我的博客 ：https://blog.csdn.net/weixin_43918624?spm=1010.2135.3001.5343
-高能物理文献查询： https://inspirehep.net/
-</ul>
+    <section id="showcase">
+        <div class="container">
+            <h1>欢迎来到我的个人主页</h1>
+            <p>探索实验物理学的奇妙世界</p>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <div class="container">
+            <h2>关于我</h2>
+            <p>我是Guofang Shen，一名专注于实验物理学研究的科学家。通过探索物质和能量的基本性质，我致力于推动科学知识的前沿。</p>
+        </div>
+    </section>
+
+    <section id="constants" class="content">
+        <div class="container">
+            <h2>物理常数</h2>
+            <ul>
+                <li>Fine-structure constant (α): 1/137.035999139</li>
+                <li>Electron mass (m<sub>e</sub>): 0.5109989 MeV</li>
+                <li>Proton mass (m<sub>proton</sub>): 938.2725 MeV</li>
+                <li>Neutron mass (m<sub>neutron</sub>): 939.5654 MeV</li>
+                <li>Muon mass (m<sub>muon</sub>): 105.6583745 MeV</li>
+                <li>Tau mass (m<sub>tau</sub>): 1776.82 MeV</li>
+                <li>Fermi coupling constant (G<sub>F</sub>): 1.1664 × 10<sup>-5</sup> (GeV)<sup>-2</sup></li>
+                <li>Weinberg angle (sin<sup>2</sup>θ<sub>W</sub>): 0.2397</li>
+                <li>Planck mass (m<sub>Pl</sub>): 1.221 × 10<sup>19</sup> GeV</li>
+                <li>Reduced Planck mass (M<sub>Pl</sub>): 2.435 × 10<sup>18</sup> GeV</li>
+                <li>Hubble constant: 72 km/s/Mpc</li>
+                <li>Planck constant (ħ): 1.0545718 × 10<sup>-34</sup> m<sup>2</sup> kg/s</li>
+                <li>Bohr radius (r<sub>bohr</sub>): 0.52917721067 × 10<sup>-10</sup> m</li>
+                <li>Avogadro's constant (N<sub>A</sub>): 6.02214086 × 10<sup>23</sup> mol<sup>-1</sup></li>
+                <li>Speed of light (c): 299792458 m/s</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="research" class="content">
+        <div class="container">
+            <h2>科研成果</h2>
+            <p>了解我的最新研究和发表的论文，请访问我的 <a href="https://www.researchgate.net/profile/Guofang-Shen-3/publications" target="_blank">ResearchGate 页面</a>。</p>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <div class="container">
+            <h2>联系方式</h2>
+            <p>如果你对我的研究感兴趣或有任何问题，请随时通过以下方式与我联系：</p>
+            <ul>
+                <li>Email: guofang.shen@example.com</li>
+                <li>Phone: +123-456-7890</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Guofang Shen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
